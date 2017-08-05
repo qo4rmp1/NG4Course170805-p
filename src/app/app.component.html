@@ -6,7 +6,7 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
-  <li routerLinke="/" routerLinkActive="triggerActive">Home</li>
+  <li routerLink="/" routerLinkActive="triggerActive" [routerLinkActiveOptions]="{exact: true}">Home</li>
   <li [routerLink]="['/Page1']" [routerLinkActive]="'triggerActive'">Page1</li>
   <li><a [routerLink]="['/', 'Page2']" routerLinkActive="triggerActive">Page2</a></li>
 </ul>
